@@ -1,0 +1,15 @@
+{
+  "name": "compoundinterestcalculatorr",
+  "version": "1.0.0",
+  "description": "this is my Compound interest calculator that pomps a user for an input, and calculates the compound interest value",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
