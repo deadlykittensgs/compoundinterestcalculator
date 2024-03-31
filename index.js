@@ -40,7 +40,7 @@ function printOutput(initAmount, monthlyContribution, numberOfYears,InterestRate
     let finalValue = compoundIntrest(initAmount,monthlyContribution,numberOfYears,InterestRate)
     let finalValueNoInterest = calculateRegularAmount(initAmount,monthlyContribution,numberOfYears,InterestRate)
 
-    let summery = `INIT AMOUNT: ${initAmount}\nMONTHLY CONTRIBUTION:${monthlyContribution}
+    let summery = `INIT AMOUNT: $${initAmount}\nMONTHLY CONTRIBUTION:$${monthlyContribution}
     \nNUMBER OF YEARS: ${numberOfYears}\nINTEREST RATE${InterestRate}%\n\n FINAL COMPOUNDED VALUE$${finalValue}\n REGULAR AMMOUNT: $${finalValueNoInterest}\n DIFFERENCE: $${finalValue - finalValueNoInterest} `
     console.log(summery)
 }
